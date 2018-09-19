@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D40C7BD214AEBEC0034F6FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D40C7BC214AEBEC0034F6FF /* AppDelegate.swift */; };
+		5D40C7BF214AEBEC0034F6FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D40C7BE214AEBEC0034F6FF /* ViewController.swift */; };
+		5D40C7C2214AEBEC0034F6FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D40C7C0214AEBEC0034F6FF /* Main.storyboard */; };
+		5D40C7C4214AEBEC0034F6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D40C7C3214AEBEC0034F6FF /* Assets.xcassets */; };
+		5D40C7C7214AEBEC0034F6FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D40C7C5214AEBEC0034F6FF /* LaunchScreen.storyboard */; };
+		5D4DBD502151F0DD00549EAF /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DBD4F2151F0DD00549EAF /* UpdateViewController.swift */; };
+		5D5AFF74214B5B5600100F34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5AFF73214B5B5600100F34 /* LoginViewController.swift */; };
+		B9D510E9D8F65ACF34A7F243 /* Pods_musicserenade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80351732ADF59B94BD0EB81D /* Pods_musicserenade.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D40C7B9214AEBEC0034F6FF /* musicserenade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicserenade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D40C7BC214AEBEC0034F6FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D40C7BE214AEBEC0034F6FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D40C7C1214AEBEC0034F6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D40C7C3214AEBEC0034F6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D40C7C6214AEBEC0034F6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D40C7C8214AEBEC0034F6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4DBD4F2151F0DD00549EAF /* UpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		5D5AFF73214B5B5600100F34 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6E10C5313FC37EFB17F5756C /* Pods-musicserenade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicserenade.release.xcconfig"; path = "Pods/Target Support Files/Pods-musicserenade/Pods-musicserenade.release.xcconfig"; sourceTree = "<group>"; };
+		80351732ADF59B94BD0EB81D /* Pods_musicserenade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_musicserenade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9C16A3B34A6DF579670E31 /* Pods-musicserenade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicserenade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-musicserenade/Pods-musicserenade.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D40C7B6214AEBEC0034F6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D510E9D8F65ACF34A7F243 /* Pods_musicserenade.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D40C7B0214AEBEC0034F6FF = {
+			isa = PBXGroup;
+			children = (
+				5D40C7BB214AEBEC0034F6FF /* musicserenade */,
+				5D40C7BA214AEBEC0034F6FF /* Products */,
+				941C7401AE55756AF6336E42 /* Pods */,
+				C9DE26DB9D11AAC118A359C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D40C7BA214AEBEC0034F6FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D40C7B9214AEBEC0034F6FF /* musicserenade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D40C7BB214AEBEC0034F6FF /* musicserenade */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DBD4F2151F0DD00549EAF /* UpdateViewController.swift */,
+				5D40C7BC214AEBEC0034F6FF /* AppDelegate.swift */,
+				5D40C7BE214AEBEC0034F6FF /* ViewController.swift */,
+				5D40C7C0214AEBEC0034F6FF /* Main.storyboard */,
+				5D5AFF73214B5B5600100F34 /* LoginViewController.swift */,
+				5D40C7C3214AEBEC0034F6FF /* Assets.xcassets */,
+				5D40C7C5214AEBEC0034F6FF /* LaunchScreen.storyboard */,
+				5D40C7C8214AEBEC0034F6FF /* Info.plist */,
+			);
+			path = musicserenade;
+			sourceTree = "<group>";
+		};
+		941C7401AE55756AF6336E42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD9C16A3B34A6DF579670E31 /* Pods-musicserenade.debug.xcconfig */,
+				6E10C5313FC37EFB17F5756C /* Pods-musicserenade.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9DE26DB9D11AAC118A359C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80351732ADF59B94BD0EB81D /* Pods_musicserenade.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D40C7B8214AEBEC0034F6FF /* musicserenade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D40C7CB214AEBEC0034F6FF /* Build configuration list for PBXNativeTarget "musicserenade" */;
+			buildPhases = (
+				B7DA9BE8E6FC657963A7C888 /* [CP] Check Pods Manifest.lock */,
+				5D40C7B5214AEBEC0034F6FF /* Sources */,
+				5D40C7B6214AEBEC0034F6FF /* Frameworks */,
+				5D40C7B7214AEBEC0034F6FF /* Resources */,
+				39346FDC43D89C17C6F8020B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = musicserenade;
+			productName = musicserenade;
+			productReference = 5D40C7B9214AEBEC0034F6FF /* musicserenade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D40C7B1214AEBEC0034F6FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = IsaacLee;
+				TargetAttributes = {
+					5D40C7B8214AEBEC0034F6FF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D40C7B4214AEBEC0034F6FF /* Build configuration list for PBXProject "musicserenade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D40C7B0214AEBEC0034F6FF;
+			productRefGroup = 5D40C7BA214AEBEC0034F6FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D40C7B8214AEBEC0034F6FF /* musicserenade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D40C7B7214AEBEC0034F6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D40C7C7214AEBEC0034F6FF /* LaunchScreen.storyboard in Resources */,
+				5D40C7C4214AEBEC0034F6FF /* Assets.xcassets in Resources */,
+				5D40C7C2214AEBEC0034F6FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39346FDC43D89C17C6F8020B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-musicserenade/Pods-musicserenade-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-musicserenade/Pods-musicserenade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7DA9BE8E6FC657963A7C888 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-musicserenade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D40C7B5214AEBEC0034F6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5AFF74214B5B5600100F34 /* LoginViewController.swift in Sources */,
+				5D40C7BF214AEBEC0034F6FF /* ViewController.swift in Sources */,
+				5D40C7BD214AEBEC0034F6FF /* AppDelegate.swift in Sources */,
+				5D4DBD502151F0DD00549EAF /* UpdateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D40C7C0214AEBEC0034F6FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D40C7C1214AEBEC0034F6FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D40C7C5214AEBEC0034F6FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D40C7C6214AEBEC0034F6FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D40C7C9214AEBEC0034F6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D40C7CA214AEBEC0034F6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D40C7CC214AEBEC0034F6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9C16A3B34A6DF579670E31 /* Pods-musicserenade.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = musicserenade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProjectCombine.musicserenade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5D40C7CD214AEBEC0034F6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E10C5313FC37EFB17F5756C /* Pods-musicserenade.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = musicserenade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProjectCombine.musicserenade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D40C7B4214AEBEC0034F6FF /* Build configuration list for PBXProject "musicserenade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D40C7C9214AEBEC0034F6FF /* Debug */,
+				5D40C7CA214AEBEC0034F6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D40C7CB214AEBEC0034F6FF /* Build configuration list for PBXNativeTarget "musicserenade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D40C7CC214AEBEC0034F6FF /* Debug */,
+				5D40C7CD214AEBEC0034F6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D40C7B1214AEBEC0034F6FF /* Project object */;
+}
